@@ -1,4 +1,3 @@
-import React from 'react';
 import fb from "../src/assets/facebook.png";
 import messenger from '../src/assets/messenger.png';
 import Whatsapp from '../src/assets/whatsapp.png';
@@ -54,7 +53,7 @@ const Hero = () => {
     <>
       {/* Breadcrumb */}
       <div className="ml-24 ">
-        <div className="flex m-5 items-center">
+        <div className="md:flex m-5 ml-3 items-center ">
           <p className="text-[#25295B]">Hero</p>
           <MdOutlineKeyboardArrowRight />
           <p className="text-[#25295B] ml-3 font-bold">Jagga</p>
@@ -66,18 +65,18 @@ const Hero = () => {
       </div>
 
       {/* Title */}
-      <h1 className="text-[40px] ml-28 m-3 font-semibold">
+      <h1 className="ml-28 m-3 font-semibold sm:text-[40px] text-xl">
         6 Aana Land Available in Budhanilkantha, Kathmandu
       </h1>
 
       {/* Published Date */}
-      <p className="ml-28 w-[300px] border border-gray-400 rounded p-2 text-center">
+      <p className="ml-28 sm:w-[300px] w-[200px] mt-5 border border-gray-400 rounded p-2 text-center">
         Published On: Aug 20, 2024
       </p>
       <hr className="w-[1050px] ml-28 mt-5" />
 
       {/* Main Content */}
-      <div className="ml-28 flex items-start mt-10">
+      <div className="sm:ml-28 flex items-start mt-10 ml-5">
         {/* Share Section */}
         <div className="mr-16">
           <h1 className="text-[#333333] font-semibold text-[18px] ml-20 mt-10">
@@ -109,13 +108,13 @@ const Hero = () => {
 
         {/* Description Section */}
         <div className="w-[370px] text-[#333333]">
-          <p className="text-justify leading-7">
+          <p className="text-justify leading-7 sm:block hidden">
             That day, for no particular reason, I decided to go for a little
             run. So I ran to the end of the road. And when I got there, I
             thought maybe I’d run to the end of town. And when I got there, I
             thought maybe I’d just run across Greenbow County.
           </p>
-          <p className="mt-4 text-justify leading-7">
+          <p className="mt-4 text-justify leading-7 sm:block hidden">
             And I figured, since I run this far, maybe I’d just run across the
             great state of Alabama. And that’s what I did. I ran clear across
             Alabama. For no particular reason I just kept on going.
