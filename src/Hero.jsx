@@ -18,7 +18,10 @@ import logo1 from "../src/assets/Logo1.png"
 import icon from "../src/assets/propertyIcon.png"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
-
+import image from "../src/assets/image.png"
+import image1 from "../src/assets/image1.png"
+import image2 from "../src/assets/image2.png"
+import image3 from "../src/assets/image3.png"
 
 const Hero = () => {
 
@@ -106,6 +109,9 @@ const Hero = () => {
           </div>
         </div>
 
+
+
+
         {/* Description Section */}
         <div className="w-[370px] text-[#333333]">
           <p className="text-justify leading-7 sm:block hidden">
@@ -122,7 +128,7 @@ const Hero = () => {
           <hr className="mt-12" />
         </div>
       </div>
-
+      
       {/* Property Section */}
       <div className="flex justify-center gap-10 p-10 -mx-[200px]">
         {/* Property Photos */}
@@ -444,6 +450,7 @@ const Hero = () => {
         </div>
       </footer>
     </div>
+
 
     </>
   );
