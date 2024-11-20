@@ -10,7 +10,7 @@ import photo2 from "../src/assets/Rectangle 2496.png";
 import { BsTelephone } from "react-icons/bs";
 import map from "../src/assets/map.png"
 import fb2 from "../src/assets/fb.png";
-import insta from "../src/assets/insta.png";
+
 import tiktok from "../src/assets/tiktok.png";
 import twiter from "../src/assets/twiter.png";
 import yt from "../src/assets/yt.png";
@@ -416,7 +416,7 @@ const Hero = () => {
 
             <div className="flex space-x-3 mt-5">
               <img src={fb2} alt="Facebook" className="w-6 h-6" />
-              <img src={insta} alt="Instagram" className="w-6 h-6" />
+      
               <img src={tiktok} alt="Twitter" className="w-6 h-6" />
               <img src={twiter} alt="TikTok" className="w-6 h-6" />
               <img src={yt} alt="YouTube" className="w-6 h-6" />
